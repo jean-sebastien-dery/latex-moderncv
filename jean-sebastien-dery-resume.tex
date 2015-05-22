@@ -1,0 +1,119 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%% Copyright 2010-2011 Mark Liu (markwayneliu@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+\usepackage{verbatim}
+
+% moderncv themes
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+
+% personal data
+\firstname{Jean-S\'ebastien}
+\familyname{D\'ery}
+\address{An address in Seattle, WA}    % optional, remove the line if not wanted
+\mobile{555-555-5555}                    % optional, remove the line if not wanted
+\email{jeansebastien@dery.com}                      % optional, remove the line if not wanted
+\social[linkedin][https://www.linkedin.com/in/jeansebastiendery]{jeansebastiendery}
+\social[github][https://github.com/jean-sebastien-dery]{jean-sebastien-dery}
+\social[twitter][https://twitter.com/DJeanSebastien]{@DJeanSebastien}
+%\extrainfo{\url{http://markliu.me}} % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Education}
+\cventry{2010--2015}{B. Eng. Computer Engineering}{McGill University}{Montr\'eal, QC, Canada}{}{}
+\cvline{courses:}{\small Artificial Intelligence, Algorithms and Data Structures, Operating Systems}
+\cvline{CGPA: }{\small 3.33/4.00}
+\cventry{2008--2010}{D.C.S. Computer Science \& Mathematics}{CEGEP de Saint-J\'er\^ome}{Saint-J\'er\^ome, QC, Canada}{}{}
+\cvline{awards:}{\small Student Merit Bursary of CEGEP de Saint-J\'er\^ome}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Experience                                                                                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experience}
+
+\cventry{Fall 2014}{Software Engineer Intern}{Amazon.com}{Seattle, WA}{}{
+- Automated the data collection of a new observation used to generate recommendations\\
+- Added the new observation to the e-book suggestion algorithms\\
+- Improved 25\% of all e-book recommendations on Amazon.com and Kindle devices\\
+}
+
+\cventry{Summer 2014}{Software Developer Intern}{Ericsson}{Montr\'eal, QC}{}{
+- Setup a framework in Java to allow the automation of a SIP stack's system tests\\
+- Programmed a resource monitoring system in Java used to monitor servers\\
+- Improved a Java wrapper for a SIP traffic generator to augment modularity\\
+- Programmed test cases in Java based on specifications to increase testing efficiency\\
+}
+
+\cventry{2010--2013}{Infantryman Corporal (Reservist)}{Canadian Armed Forces}{Montr\'eal, QC}{}{
+- Second-in-Command of my section composed of 8 men\\
+- Learned how to operate and focus on the mission in stressful situations\\
+- Acquired rigid self-discipline and strong determination to achieve the mission\\
+}
+
+\cventry{Winter--Summer 2013}{Software Developer Intern}{Ericsson}{Montr\'eal, QC}{}{
+- Implemented a storage solution for incoming SMS and MMS in Java\\
+- Enriched an IMAP testing framework by adding new supported commands\\
+- Migrated regression suites from a Java testing framework to a TTCN platform\\
+}
+
+\section{Technical Experience}
+\subsection{Proficient With}
+\cvline{}{Java, Unix, OOP, Agile, UML, CI, TDD}
+\subsection{Have Experience With}
+\cvline{}{C/C++, Python, Git, ROS, Maven, OpenCV, Spring}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Experience                                                                                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Design Projects}
+
+\cventry{2013--2014}{Software Engineering Leader}{\href{http://auv.mcgillrobotics.com/}{McGill Robotics: Autonomous Underwater Vehicle}}{}{}{
+- Lead 35 people from the Software Division to build an autonomous submarine\\
+- Ranked 10th out of 39 international teams at the RoboSub 2014 competition\\
+- Taught and made sure the Agile methodologies were followed by the 5 different sections throughout the process\\
+- Worked on a technical section to implement the computer vision with OpenCV in C++\\
+- Wrote feature detection as well as distance estimation algorithms in C++\\
+- Designed and implemented the software architecture with the Robot Operating System\\
+}
+
+\cventry{2012--2013}{Motor Team Leader}{\href{http://lunarex.mcgill.ca/}{McGill LunarEx: Autonomous Lunar Rover}}{}{}{
+- Responsible of the selection and assembly of 8 motors and motor-controllers for the rover\\
+- Ranked 12th out of 50 international teams at the NASA Lunabotics Mining competition\\
+- Managed a budget of $\sim$\$5K for the motor equipment out of a total budget of $\sim$\$20K\\
+- Created a custom Arduino shield with 3 teammates that featured low-pass filters to convert PWM signals to analog - to interface with the 8 motor-controllers\\
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Experience                                                                                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Academic Projects}
+
+\end{document}
