@@ -27,12 +27,12 @@
 % personal data
 \firstname{Jean-S\'ebastien}
 \familyname{D\'ery}
-\address{An address in Seattle, WA}    % optional, remove the line if not wanted
-\mobile{555-555-5555}                    % optional, remove the line if not wanted
+\address{405 Clos-Vougeot, Prevost\\J0R 1T0, QC, Canada\\}    % optional, remove the line if not wanted
+\mobile{514-951-0791}                    % optional, remove the line if not wanted
 \email{jeansebastien@dery.com}                      % optional, remove the line if not wanted
-\social[linkedin][https://www.linkedin.com/in/jeansebastiendery]{jeansebastiendery}
-\social[github][https://github.com/jean-sebastien-dery]{jean-sebastien-dery}
-\social[twitter][https://twitter.com/DJeanSebastien]{@DJeanSebastien}
+\social[linkedin][www.linkedin.com/in/jeansebastiendery]{jeansebastiendery}
+\social[github][www.github.com/jean-sebastien-dery]{jean-sebastien-dery}
+\social[twitter][www.twitter.com/DJeanSebastien]{@DJeanSebastien}
 %\extrainfo{\url{http://markliu.me}} % optional, remove the line if not wanted
 
 % to show numerical labels in the bibliography; only useful if you make citations in your resume
@@ -50,7 +50,6 @@
 \section{Education}
 \cventry{2010--2015}{B. Eng. Computer Engineering}{McGill University}{Montr\'eal, QC, Canada}{}{}
 \cvline{courses:}{\small Artificial Intelligence, Algorithms and Data Structures, Operating Systems}
-\cvline{CGPA: }{\small 3.33/4.00}
 \cventry{2008--2010}{D.C.S. Computer Science \& Mathematics}{CEGEP de Saint-J\'er\^ome}{Saint-J\'er\^ome, QC, Canada}{}{}
 \cvline{awards:}{\small Student Merit Bursary of CEGEP de Saint-J\'er\^ome}
 
@@ -91,7 +90,7 @@
 \cvline{}{C/C++, Python, Git, ROS, Maven, OpenCV, Spring}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Experience                                                                                       %
+% Design Projects                                                                                  %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Design Projects}
 
@@ -112,8 +111,33 @@
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Experience                                                                                       %
+% Academic Projects                                                                                %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Academic Projects}
+
+\cventry{Winter 2014}{Halma board game AI}{An artificially intelligent agent for the Halma board game}{}{}{
+- Designed an algorithm based on Iterative Deepening A* which allowed an agent to define a set of actions that increased the probability of winning\\
+- Engineered a heuristic that allowed completion of the game and optimal results\\
+- Implemented the solution in Java by having a well-defined object-oriented architecture\\
+}
+
+\cventry{Winter 2014}{Messaging System}{A back-end and front-end implementation of a custom messaging protocol}{}{}{
+- Implemented the front-end of a custom messaging protocol that supported file transfer\\
+- Enabled secure transactions by having the connection on an encrypted layer using SSL\\
+- Designed and programmed a finite state machine to support the various actions while staying modular\\
+}
+
+\cventry{Fall 2013}{Robotic hand}{A wireless master/slave robotic hand control solution}{}{}{
+- Programmed the drivers used to control the servo motors and LCD display\\
+- Defined a finite state machine architecture to handle the different possible actions\\
+- Implemented a solution that used the accelerometer present on the board to control the Pitch and Roll angles of the hand\\
+}
+
+\cventry{Summer 2013}{BB Sentry Turret}{A BB Sentry Turret for the BuildSomething Hackaton}{}{}{
+- Programmed the back-end in Python on a Raspberry Pi with 3 other teammates\\
+- Successfully built and programmed the turret in less than 10 hours\\
+- Wrote a PS3 interface that allowed direct control of the turret\\
+- Designed an architecture that allowed the team of 5 to work in parallel with an easy integration at the end of the hackathon\\
+}
 
 \end{document}
