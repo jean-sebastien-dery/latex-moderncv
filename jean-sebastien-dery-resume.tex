@@ -19,7 +19,7 @@
 
 % adjust the page margins
 \usepackage[scale=0.8]{geometry}
-%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+\setlength{\hintscolumnwidth}{2.5cm}						% if you want to change the width of the column with the dates
 %\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
 %\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
 
@@ -27,20 +27,20 @@
 % personal data
 \firstname{Jean-S\'ebastien}
 \familyname{D\'ery}
-\address{405 Clos-Vougeot, Prevost\\J0R 1T0, QC, Canada\\}    % optional, remove the line if not wanted
-\mobile{514-951-0791}                    % optional, remove the line if not wanted
+\address{801 Dexter Ave N, Unit 320\\ Seattle, 98109, WA, USA\\}    % optional, remove the line if not wanted
+\mobile{206-604-5702}                    % optional, remove the line if not wanted
 \email{jeansebastien@dery.com}                      % optional, remove the line if not wanted
+\homepage{jsdery.com}
 \social[linkedin][www.linkedin.com/in/jeansebastiendery]{jeansebastiendery}
 \social[github][www.github.com/jean-sebastien-dery]{jean-sebastien-dery}
 \social[twitter][www.twitter.com/DJeanSebastien]{@DJeanSebastien}
-%\extrainfo{\url{http://markliu.me}} % optional, remove the line if not wanted
 
 % to show numerical labels in the bibliography; only useful if you make citations in your resume
 %\makeatletter
 %\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
 %\makeatother
 
-%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+\nopagenumbers{}
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
@@ -58,10 +58,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Experience}
 
+\cventry{Fall 2015--Present}{Software Engineer}{Amazon.com}{Seattle, WA}{}{
+- Working in the Vendor Management Tool team\\
+}
+
 \cventry{Fall 2014}{Software Engineer Intern}{Amazon.com}{Seattle, WA}{}{
-- Automated the data collection of a new observation used to generate recommendations\\
-- Added the new observation to the e-book suggestion algorithms\\
-- Improved 25\% of all e-book recommendations on Amazon.com and Kindle devices\\
+- Automated the data collection of a new observation used to generate e-book recommendations\\
+- Modified the e-book suggestion algorithm to consider the new observation\\
+- Improved 25\% of all electronic books recommendations on Amazon.com and Kindle devices\\
+- Setup an A/B Testing experiment in order to quantify the impact the change had on customers conversion rates\\
 }
 
 \cventry{Summer 2014}{Software Developer Intern}{Ericsson}{Montr\'eal, QC}{}{
@@ -83,12 +88,6 @@
 - Migrated regression suites from a Java testing framework to a TTCN platform\\
 }
 
-\section{Technical Experience}
-\subsection{Proficient With}
-\cvline{}{Java, Unix, OOP, Agile, UML, CI, TDD}
-\subsection{Have Experience With}
-\cvline{}{C/C++, Python, Git, ROS, Maven, OpenCV, Spring}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Design Projects                                                                                  %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -97,10 +96,10 @@
 \cventry{2013--2014}{Software Engineering Leader}{\href{http://auv.mcgillrobotics.com/}{McGill Robotics: Autonomous Underwater Vehicle}}{}{}{
 - Lead 35 people from the Software Division to build an autonomous submarine\\
 - Ranked 10th out of 39 international teams at the RoboSub 2014 competition\\
-- Taught and made sure the Agile methodologies were followed by the 5 different sections throughout the process\\
 - Worked on a technical section to implement the computer vision with OpenCV in C++\\
 - Wrote feature detection as well as distance estimation algorithms in C++\\
 - Designed and implemented the software architecture with the Robot Operating System\\
+- Taught and made sure the Agile methodologies were followed by the team throughout the process\\
 }
 
 \cventry{2012--2013}{Motor Team Leader}{\href{http://lunarex.mcgill.ca/}{McGill LunarEx: Autonomous Lunar Rover}}{}{}{
@@ -113,7 +112,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Academic Projects                                                                                %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Academic Projects}
+\section{Academic and Personal Projects}
 
 \cventry{Winter 2014}{Halma board game AI}{An artificially intelligent agent for the Halma board game}{}{}{
 - Designed an algorithm based on Iterative Deepening A* which allowed an agent to define a set of actions that increased the probability of winning\\
@@ -139,5 +138,11 @@
 - Wrote a PS3 interface that allowed direct control of the turret\\
 - Designed an architecture that allowed the team of 5 to work in parallel with an easy integration at the end of the hackathon\\
 }
+
+\section{Technical Experience}
+\subsection{Proficient With}
+\cvline{}{Java, Unix, OOP, Agile, UML, CI, TDD}
+\subsection{Have Experience With}
+\cvline{}{C/C++, Python, Git, ROS, Maven, OpenCV, Spring}
 
 \end{document}
